@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>JavaScript学习</title>
+    <style type="text/css">
+        .pic {
+            height: 300px;
+        }
+        img {
+            display: block;
+        }
+    </style>
+    <script type="text/javascript" src="./scripts/showPic.js"></script>
+</head>
+<body>
+    <a href="./images/people.jpg" id="people" class="pic a" onclick="showPic(this);return false">人物</a>
+    <a href="./images/landscape.jpg" id="landscape" class="pic a" onclick="showPic(this);return false">风景</a>
+    <a href="./images/stilllife.jpg" id="still_life" class="pic a" onclick="showPic(this);return false">静物</a>
+    <img src="./images/placehold.jpg" alt="占位图片" id="placehold" class="pic">
+</body>
+</html>
