@@ -19,15 +19,18 @@
             <a href="./images/stilllife.jpg" id="still_life" class="pic a" title="静物" onclick="showPic(this);return false">静物</a>
         </li>
     </ul>
-    <img src="./images/placehold.jpg" alt="占位图片" id="placehold" class="pic">
+    <div id="picture">
+        <img src="./images/placehold.jpg" alt="占位图片" id="placehold" class="pic">
+    </div>
     <p id="description">占位符图片</p>
-    <input type="button" value="显示节点类型" onclick="showNodeType()" />
+    <div id="shownodetype">
+        <input type="button" value="显示节点类型" onclick="showNodeType()" />
+    </div>
     <script type="text/javascript">
-        function test() {
-            window.open("www.baidu.com","popup","width=200x,height=200px");
-        }
-
-        window.onload=test();
+//        function test() {
+//            window.open("http://www.baidu.com","popup","width=200x,height=200px");
+//        }
+//        window.onload=test();
     </script>
 </body>
 </html>

@@ -7,17 +7,12 @@ function showPic(whichpic) {
     placehold.setAttribute("src",source);
 
     var des = document.getElementById("description");
-    var text = whichpic.getAttribute("title");
-    des.firstChild.nodeValue = text;
-}
-
-function countChildrenElement() {
-    var bodyElement = document.getElementsByTagName("body")[0];
-    alert(bodyElement.childNodes.length);
+    des.firstChild.nodeValue = whichpic.getAttribute("title");
 }
 //
-// function changeDescription() {
-//
+// function countChildrenElement() {
+//     var bodyElement = document.getElementsByTagName("body")[0];
+//     alert(bodyElement.childNodes.length);
 // }
 
 function showNodeType() {
@@ -28,4 +23,4 @@ function showNodeType() {
     }
 }
 
-window.onload=countChildrenElement;
+// window.onload=countChildrenElement;
