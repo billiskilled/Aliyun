@@ -9,18 +9,3 @@ function showPic(whichpic) {
     var des = document.getElementById("description");
     des.firstChild.nodeValue = whichpic.getAttribute("title");
 }
-//
-// function countChildrenElement() {
-//     var bodyElement = document.getElementsByTagName("body")[0];
-//     alert(bodyElement.childNodes.length);
-// }
-
-function showNodeType() {
-    var bodyElement = document.getElementsByTagName("body")[0];
-    var nodes = bodyElement.childNodes;
-    for(var i = 0;i < nodes.length;i++) {
-        alert(nodes[i].nodeType);
-    }
-}
-
-// window.onload=countChildrenElement;
