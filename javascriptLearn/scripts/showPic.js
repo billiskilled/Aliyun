@@ -2,9 +2,9 @@
  * Created by wanglei on 17-4-25.
  */
 function perpareGallery() {
-    if(!document.getElementsByTagName())
+    if(!document.getElementsByTagName)
         return false;
-    if(!document.getElementById())
+    if(!document.getElementById)
         return false;
     if(!document.getElementById("imagegallery"))
         return false;
@@ -37,4 +37,6 @@ function countBodyChildren() {
     alert(body_element.childNodes.length);
 }
 
-window.onload = perpareGallery();
+window.onload = function () {
+    perpareGallery();
+}
